@@ -1,3 +1,7 @@
+#include <unordered_set>
+#include <unordered_map>
+#include <utility>
+
 template <typename T>
 class Graph {
   std::unordered_map<T, std::unordered_set<T>> adjacency_list;
